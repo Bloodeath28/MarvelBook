@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: dashed 1px black;
+}
+
+header {
+    border: dashed 1px rgb(252, 0, 0);
+}
+
+main {
+    border: dashed 1px rgb(22, 138, 6);
+}
+
+footer {
+    border: dashed 1px rgb(53, 63, 196);
+}
+
+#navBarre {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+    height: 3vw;
+    background-color: #59595950;
+    align-items: center;
+}
+
+#navBarre a {
+    color: white;
+    text-decoration: none;
+}
+
+#navGauche {
+    display: flex;
+    align-items: center;
+}
+
+#logoMarvelBook {
+    height: 3vw;
+    opacity: 65%;
+}
+
+.btn {
+    padding: 0.3vw 2vw;
+    margin: 0 2vw;
+    background-color: #e01c1cce;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(49, 47, 47);
+}
+
+@media ( width > 1050px) {
+    .btn{
+        padding: 1px 10px;
+    }
+}
