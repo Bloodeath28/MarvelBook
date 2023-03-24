@@ -4,7 +4,7 @@ body {
 }
 
 /*barre de navigation*/
-#navBarre {
+nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -14,7 +14,7 @@ body {
     align-items: center;
 }
 
-#navBarre a {
+nav a {
     color: white;
     text-decoration: none;
 }
