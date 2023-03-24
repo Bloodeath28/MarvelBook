@@ -1,27 +1,15 @@
 body {
     margin: 0;
     padding: 0;
-    border: dashed 1px black;
 }
 
-header {
-    border: dashed 1px rgb(252, 0, 0);
-}
-
-main {
-    border: dashed 1px rgb(22, 138, 6);
-}
-
-footer {
-    border: dashed 1px rgb(53, 63, 196);
-}
-
+/*barre de navigation*/
 #navBarre {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 100vw;
-    height: 3vw;
+    height: 60px;
     background-color: #59595950;
     align-items: center;
 }
@@ -37,20 +25,130 @@ footer {
 }
 
 #logoMarvelBook {
-    height: 3vw;
+    height: 60px;
     opacity: 65%;
 }
 
 .btn {
-    padding: 0.3vw 2vw;
+    padding: 0.4vw 2vw;
     margin: 0 2vw;
     background-color: #e01c1cce;
     border-radius: 10px;
     box-shadow: 5px 5px 10px rgb(49, 47, 47);
+    text-transform: uppercase;
+    font-family: 'Marvel', sans-serif;
 }
 
-@media ( width > 1050px) {
+#pageAccueil {
+    display: flex;
+}
+
+#presentationSite, #blockMieuxNote {
+    margin: 30px 30px;
+    padding: 20px;
+    width: 49vw;
+    border-radius: 20px;
+    background-color: #59595950;
+    text-align: center;
+    font-family: 'Marvel', sans-serif;
+}
+
+.titreDeBlock {
+    color: #e01c1cce;
+    background-color: rgb(230, 230, 230);
+    width: 20vw;
+    padding: 5px 20px;
+    margin: 0 auto 20px;
+    border-radius: 15px;
+}
+
+
+#imageTexte {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#imgPresentation {
+    margin-right: 20px;
+    width: 25vw;
+}
+
+#sousTitrePresentation{
+    background-color: rgb(230, 230, 230);
+    width: 15vw;
+    padding: 5px 20px;
+    margin: 10px auto 30px;
+    border-radius: 15px;
+}
+
+#textePresentation {
+    background-color: rgb(230, 230, 230);
+    width: 20vw;
+    height: 20vw;
+    padding: 5px 20px;
+    margin: 0 auto 20px;
+    border-radius: 15px;
+    text-align: justify;
+}
+
+#blockLivresMieuxNote {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.blockLivre {
+    padding: 15px 15px 0;
+    border-radius: 10px;
+    background-color: rgb(230, 230, 230);
+}
+
+.imageLivre {
+    width: 6.5vw;
+    height: 9vw;
+}
+
+#marvelHero {
+    width: 49vw;
+}
+
+#footerMarvel {
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    justify-content: space-between;
+    background-color: #59595950;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    align-items: center;
+}
+
+#footerGauche  {
+    display: flex;
+}
+
+.imgFooter {
+    height: 80px;
+    margin-right: 10px;
+}
+
+#texteFooter {
+    margin: 35px;
+    font-family: 'Marvel', sans-serif;
+}
+
+@media ( width < 1050px) {
+
+    #navBarre{
+        height: 40px;
+    }
+
+    #logoMarvelBook {
+        height: 40px;
+    }
+
     .btn{
-        padding: 1px 10px;
+        padding: 5px 10px;
     }
 }
