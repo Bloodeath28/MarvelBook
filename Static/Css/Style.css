@@ -43,6 +43,14 @@ nav a {
     text-transform: uppercase;
     font-family: 'Marvel', sans-serif;
 }
+
+.btn:hover {
+    background-color: #e01c1c79;
+}
+
+.btn:active {
+    background-color: #391ce079;
+}
 /* fin de la nav barre debut du main */
 
 #pageAccueil {

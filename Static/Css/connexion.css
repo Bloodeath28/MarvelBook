@@ -52,13 +52,13 @@ nav a {
     background-color: #391ce079;
 }
 
-/* Fin de la nav barre de du main */
+/* fin header et debut du main*/
 
-#captainMarvel {
+#antMan {
     display: none;
 }
 
-#pageInscription{
+#pageConnexion{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -70,7 +70,7 @@ nav a {
     width: 30vw;
 }
 
-#blockInscription{
+#blockConnexion{
     margin: 30px 0;
     border-radius: 20px;
     background-color: #59595950;
@@ -78,7 +78,7 @@ nav a {
     z-index: 2;
 }
 
-#titreInscription{
+#titreConnexion{
     margin: 40px auto;
     padding: 10px 0;
     text-align: center;
@@ -101,11 +101,11 @@ table {
     height: 30px;
 }
 
-#checkBox, #boxBtnInscription {
+#checkBox, #boxBtnConnexion {
     text-align: center;
 }
 
-#btnInscription {
+#btnConnexion {
     border: none;
     margin: 10px;
     width: 150px;
@@ -120,15 +120,15 @@ table {
     cursor: pointer;
 }
 
-#btnInscription:hover {
+#btnConnexion:hover {
     background-color: #5e5bff98;
 }
 
-#btnInscription:active {
+#btnConnexion:active {
     background-color: #e01c1c79;
 }
 
-/* Fin du main debut du footer */
+/* fin du main et debut du footer*/
 
 #footerMarvel {
     display: flex;
@@ -161,16 +161,16 @@ table {
         display: none;
     }
 
-    #captainMarvel {
+    #antMan {
         display: flex;
         display: block;
         position: absolute;
         z-index: 1;
         width: 340px;
-        margin: 100px 25vw;
+        margin: 0 25vw;
     }
 
-    #blockInscription {
+    #blockConnexion {
         width: 340px;
     }
 
@@ -180,7 +180,7 @@ table {
     }
 
     @media (width < 450px) {
-        #captainMarvel{
+        #antMan {
             margin: 100px 20px;
         }
     }
