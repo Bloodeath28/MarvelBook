@@ -1,0 +1,136 @@
+@font-face {
+    font-family: 'Marvel';
+    src: url(../Font/Marvel-Regular.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/*barre de navigation*/
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+    height: 60px;
+    background-color: #59595950;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+#navGauche {
+    display: flex;
+    align-items: center;
+}
+
+#logoMarvelBook {
+    height: 60px;
+    opacity: 65%;
+}
+
+.btn {
+    padding: 0.4vw 2vw;
+    margin: 0 2vw;
+    background-color: #e01c1cce;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(49, 47, 47);
+    text-transform: uppercase;
+    font-family: 'Marvel', sans-serif;
+}
+
+/* Fin de la nav barre de du main */
+
+#pageInscription{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Marvel', sans-serif;
+}
+
+.imageMarvel {
+    margin: 50px;
+    width: 30vw;
+}
+
+#blockInscription{
+    margin: 30px 0;
+    border-radius: 20px;
+    background-color: #59595950;
+    width: 30vw;
+    
+}
+
+#titreInscription{
+    margin: 20px auto;
+    padding: 10px 0;
+    text-align: center;
+    background-color: rgb(230, 230, 230);
+    border-radius: 10px;
+    color: #e01c1cce;
+    width: 300px;
+}
+
+table {
+    border: dashed 1px;
+    margin: 50px auto;
+    width: 350px;
+    height: 350px;
+}
+
+.champRemplissage {
+    border-radius: 10px;
+    border: dotted 2px #e01c1cce;
+    width: 350px;
+    height: 30px;
+}
+
+#checkBox, #boxBtnInscription {
+    text-align: center;
+}
+
+#btnInscription {
+    border: none;
+    margin: 10px;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    font-family: 'marvel', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: white;
+    background-color: #5E5BFF;
+    box-shadow: 5px 5px 10px rgb(49, 47, 47);
+}
+
+/* Fin du main debut du footer */
+
+#footerMarvel {
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    justify-content: space-between;
+    background-color: #59595950;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    align-items: center;
+}
+
+#footerGauche  {
+    display: flex;
+}
+
+.imgFooter {
+    height: 80px;
+    margin-right: 10px;
+}
+
+#texteFooter {
+    margin: 30px;
+    font-family: 'Marvel', sans-serif;
+}

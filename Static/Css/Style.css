@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Marvel';
+    src: url(../Font/Marvel-Regular.ttf);
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -38,6 +43,7 @@ nav a {
     text-transform: uppercase;
     font-family: 'Marvel', sans-serif;
 }
+/* fin de la nav barre debut du main */
 
 #pageAccueil {
     display: flex;
@@ -113,6 +119,8 @@ nav a {
     width: 49vw;
 }
 
+/* Fin du main debut footer*/
+
 #footerMarvel {
     display: flex;
     flex-direction: row;
@@ -134,21 +142,79 @@ nav a {
 }
 
 #texteFooter {
-    margin: 35px;
+    margin: 30px;
     font-family: 'Marvel', sans-serif;
 }
 
-@media ( width < 1050px) {
+@media ( width < 1100px) {
 
     #navBarre{
-        height: 40px;
-    }
-
-    #logoMarvelBook {
+        width: 100%;
         height: 40px;
     }
 
     .btn{
         padding: 5px 10px;
+    }
+
+    #presentationSite, #blockMieuxNote{
+        width: 70vw;
+        margin-left: 13vw;
+    }
+
+    #textePresentation {
+        height: 35vw;
+    }
+
+    #sousTitrePresentation, #textePresentation, #imgPresentation {
+        width: 30vw;
+    }
+
+    #marvelHero {
+        display: none;
+    }
+
+    @media ( width < 800px) {
+
+        #pageAccueil {
+            align-items: center;
+        }
+
+        .btn{
+            font-size: 8px;
+        }
+
+        #btnInscription {
+            display: none;
+        }
+        
+        #presentationSite, #imageTexte {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 300px;
+        }
+
+        #presentationSite {
+            margin: 30px 10px;
+            height: 775px;
+        }
+
+        #sousTitrePresentation, #textePresentation, .titreDeBlock{
+            width: 275px;
+        }
+
+        #textePresentation{
+            height: 300px;
+        }
+
+        #blockMieuxNote {
+            width: 300px;
+            margin: 30px 10px;
+        }
+
+        .imgFooter {
+            display: none;
+        }
     }
 }
