@@ -25,15 +25,20 @@
             </nav>
         </header>
         <main>
-            <section>
+            <section id="blocDeProfil">
                 <article id="cadrePerso">
-                    <div id="avatar">
-                        <img src="../Asset/Img/Avatar defaut.png" alt="Photo de profil">
-                        <input type="submit" value="Changer photo">
+                    <div>
+                        <img id="photoProfil" src="../Asset/Img/Avatar defaut.png" alt="Photo de profil">
+                        <input id="btnChangerPhoto" type="submit" value="Changer photo">
                     </div>
-                    <div id="genre">
-                        <form action="">
+                    <div id="pseudoGenreDate">
+                        <form method="post" action="adresse de destination">
                             <table>
+                                <tr>
+                                    <td>
+                                        <label for="pseudo">Pseudo</label>
+                                    </td>
+                                </tr>
                                 <tr>
                                     <td>
                                         <input id="pseudo" type="text" name="pseudo" placeholder="Pseudo">
@@ -44,22 +49,84 @@
                                 </tr>
                                 <tr>
                                     <td>
-                                        <input id="sexe" type="file" name="sexe" placeholder="Pseudo">
-                                    </td>
-                                    <td>
+                                        <label for="Sexe">Sexe</label>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
+                                        <select name="Sexe" id="genre">
+                                            <optgroup label="Genre"></optgroup>
+                                            <option value="Homme">homme</option>
+                                            <option value="Femme">Femme</option>
+                                        </select>
                                     </td>
+                                </tr>
+                                <tr>
                                     <td>
+                                        <label for="date">Date de naissance</label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input id="date" type="date" name="date">
                                     </td>
                                 </tr>
                             </table>
+                            <input id="enregitrerCadrePerso" type="submit" value="Enregistrer">
                         </form>
                     </div>
                 </article>
+                <article id="cadreDeDescription">
+                    <form method="post" action="adresse de destination">
+                        <table id="tableauDescription">
+                            <tr>
+                                <td>
+                                    <label class="label"  for="email">E-mail :</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input class="champRemplissage" type="email" name="email" placeholder=" Saisisez votre E-mail">
+                                    <input class="btnModifier" type="image" alt="modifier" src="../Asset/Img/Logo Modifier.png">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label class="label" for="password">Mot de passe :</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input class="champRemplissage" type="password" name="password" placeholder=" Saisisez votre Mot de passe">
+                                    <input class="btnModifier" type="image" alt="modifier" src="../Asset/Img/Logo Modifier.png">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label class="label" for="password">Validation du mot de passe :</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input class="champRemplissage" type="password" name="password" placeholder=" Resaisisez votre Mot de passe">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label class="label"  for="description">Description :</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <textarea id="champDeDescription" maxlength="255" name="description" placeholder="Saisisez votre déscription"></textarea>
+                                </td>
+                            </tr>
+                        </table>
+                        <input id="enregitrerDescription" type="submit" value="Enregistrer">
+                    </form>
+                </article>
             </section>
+            <img id="marvelUniverse" src="../Asset/Img/The_Marvel_Universe-780x390.png" alt="Marvel Universe">
         </main>
         <footer>
             <section id="footerMarvel">
