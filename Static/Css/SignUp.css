@@ -52,7 +52,7 @@ nav a {
     background-color: #391ce079;
 }
 
-/* Fin de la nav barre de du main */
+/* Fin de la nav barre debut du main */
 
 #captainMarvel {
     display: none;
@@ -101,7 +101,7 @@ table {
     height: 30px;
 }
 
-#checkBox, #boxBtnInscription {
+#boxCheckBox, #boxBtnInscription {
     text-align: center;
 }
 

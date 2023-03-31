@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MARVEL Book | Inscription</title>
     <link rel="icon" type="image/x-icon" href="/Static/Asset/Logo/Logo Spider-man.png">
-    <link rel="stylesheet" href="../Css/SignUn.css">
-    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="../Css/SignUp.css">
+    
 </head>
     <body>
         <header>
@@ -42,7 +42,7 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <input class="champRemplissage" id="pseudo" type="text" name="pseudo" required placeholder=" Saisisez votre Pseudo">
+                                    <input class="champRemplissage" id="pseudo" type="text" name="pseudo"  placeholder=" Saisisez votre Pseudo">
                                 </td>
                             </tr>
                             <tr>
@@ -52,7 +52,7 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <input class="champRemplissage" id="eMail" type="email" name="email" required placeholder=" Saisisez votre E-mail">
+                                    <input class="champRemplissage" id="eMail" type="email" name="email"  placeholder=" Saisisez votre E-mail">
                                 </td>
                             </tr>
                             <tr>
@@ -62,7 +62,7 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <input class="champRemplissage" id="motDePasse" type="password" name="password" required placeholder=" Saisisez votre Mot de passe">
+                                    <input class="champRemplissage" id="motDePasse" type="password" name="password"  placeholder=" Saisisez votre Mot de passe">
                                 </td>
                             </tr>
                             <tr>
@@ -72,18 +72,18 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <input class="champRemplissage" id="validationDeMotDePasse" type="password" name="password" required placeholder=" Resaisisez votre Mot de passe">
+                                    <input class="champRemplissage" id="validationDeMotDePasse" type="password" name="password"  placeholder=" Resaisisez votre Mot de passe">
                                 </td>
                             </tr>
                             <tr>
-                                <td id="checkBox">
-                                    <input type="checkbox" name="checkbox" required>
+                                <td id="boxCheckBox">
+                                    <input type="checkbox" id="checkBox" name="checkbox" >
                                     <label for="chekbox">J'accepte les, CGU</label>
                                 </td>
                             </tr>
                             <tr>
                                 <td id="boxBtnInscription">
-                                    <input id="btnInscription" type="submit" value="S'inscrire">
+                                    <input id="btnInscription" type="button" value="S'inscrire">
                                 </td>
                             </tr>
                         </table>
@@ -108,5 +108,6 @@
             </section>
         </footer>
     </body>
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
     <script src="../Js/scriptInscription.js"></script>
 </html>
