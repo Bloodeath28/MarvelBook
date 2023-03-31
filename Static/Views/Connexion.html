@@ -37,12 +37,12 @@
                         <table>
                             <tr>
                                 <td>
-                                    <label class="label" for="pseudo">Pseudo :</label>
+                                    <label class="label" for="pseudo">E-mail :</label>
                                 </td>
                             </tr>
                             <tr>
                                 <td>
-                                    <input class="champRemplissage" type="text" name="pseudo" placeholder=" Saisisez votre Pseudo">
+                                    <input class="champRemplissage" id="eMail" type="email" name="email" placeholder=" Saisisez votre email">
                                 </td>
                             </tr>
                             <tr>
@@ -52,7 +52,7 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <input class="champRemplissage" type="password" name="password" placeholder=" Saisisez votre Mot de passe">
+                                    <input class="champRemplissage" id="motDePasse" type="password" name="password" placeholder=" Saisisez votre Mot de passe">
                                 </td>
                             </tr>
                             <tr>
@@ -88,4 +88,6 @@
             </section>
         </footer>
     </body>
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+    <script src="../Js/connexion.js"></script>
 </html>

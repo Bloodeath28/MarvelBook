@@ -39,13 +39,13 @@ btnInscription.addEventListener("click", Event => {
             username: pseudo.value,
 
         },{
-            Headers :{
-                'x-api-key' :apiKey
+            headers : {
+                'x-api-key' : `${apiKey}`
             }
         })
         .then(function(response){
             console.log("Donnée reçue: ", response.data);
-            // window.location.href ='../../Index.html';
+            window.location.href ="/views/Connexion.html";
         })
         .catch(function(error){
             console.log("Erreur: ",error);
