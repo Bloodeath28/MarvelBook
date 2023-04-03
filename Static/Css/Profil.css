@@ -36,7 +36,11 @@ nav a {
 }
 
 .btn {
-    padding: 0.4vw 2vw;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 125px;
+    height: 30px;
     margin: 0 2vw;
     background-color: #e01c1cce;
     border-radius: 10px;
@@ -131,10 +135,6 @@ main{
     color: white;
     box-shadow: 5px 5px 10px rgb(49, 47, 47);
     border-radius: 10px;
-}
-
-.btnModifier {
-    width: 20px;
 }
 
 #cadreDeDescription{
