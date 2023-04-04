@@ -213,6 +213,12 @@ main{
 
 @media (width < 1250px) {
 
+    .btn{
+        font-size: 8px;
+        width: 50px;
+        height: 30px;
+    }
+
     #marvelUniverse{
         display: none;
     }
@@ -253,6 +259,10 @@ main{
 
     #enregitrerDescription {
         margin: 10px 125px;
+    }
+
+    #texteFooter {
+        font-size: 8px;
     }
 
 }

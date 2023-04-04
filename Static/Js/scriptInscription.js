@@ -45,7 +45,7 @@ btnInscription.addEventListener("click", Event => {
         })
         .then(function(response){
             console.log("Donnée reçue: ", response.data);
-            window.location.href ="/views/Connexion.html";
+            window.location.href ="/views/connexion.html";
         })
         .catch(function(error){
             console.log("Erreur: ",error);

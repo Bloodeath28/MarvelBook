@@ -8,7 +8,7 @@ const rejexMotDePasse   = /^(?=.*\d)(?=.*[!.?@#$%^&*])(?=.*[a-z])(?=.*[A-Z]).{8,
 
 const token =sessionStorage.getItem('token');
 if (token) {
-    window.location.href ="./Profil.html";
+    window.location.href ="./profile.html";
 }
 
 btnConnexion.addEventListener("click", Event => {

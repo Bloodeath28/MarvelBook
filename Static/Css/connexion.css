@@ -187,5 +187,11 @@ table {
         #antMan {
             margin: 100px 20px;
         }
+        
+        .btn{
+            font-size: 8px;
+            width: 50px;
+            height: 30px;
+        }
     }
 }
