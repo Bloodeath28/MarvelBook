@@ -14,7 +14,6 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 100vw;
     height: 60px;
     background-color: #59595950;
     align-items: center;
@@ -181,7 +180,7 @@ main{
 }
 
 #marvelUniverse{
-    width: 60vw;
+    width: 68vw;
 }
 
 /* fin du main et debut du footer*/

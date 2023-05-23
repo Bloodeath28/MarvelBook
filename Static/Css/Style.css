@@ -13,7 +13,6 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 100vw;
     height: 60px;
     background-color: #59595950;
     align-items: center;
@@ -132,7 +131,7 @@ nav a {
 }
 
 #marvelHero {
-    width: 49vw;
+    width: 45vw;
 }
 
 /* Fin du main debut footer*/
